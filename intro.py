@@ -1,13 +1,4 @@
 from collections import deque
-
-val = {
-"juan",
-"pedro",
-1,
-2,
-30,
-"maria"
-}
-val.discard("maria")
-print(val)
-
+b = deque([3,2,4,5,1])
+sort = sorted(b)
+print(sort)
