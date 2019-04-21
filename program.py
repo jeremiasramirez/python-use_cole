@@ -9,7 +9,7 @@ while breaks != "n":
 
     if breaks == "y":
         name = str(input("Diga un nombre para agregar: "))
-        if len(name) >= 12:
+        if len(name) >= 20:
             print("ERROR: name very long")
         else:
             cola.append(name)
